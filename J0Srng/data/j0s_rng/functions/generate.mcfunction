@@ -1,0 +1,2 @@
+loot replace entity @e[limit=1,tag=J0Sworker] weapon.offhand loot j0s_rng_float:0-1
+data modify entity @e[limit=1,tag=J0Sworker] HandItems[0].tag.J0Srng.output set from entity @e[limit=1,tag=J0Sworker] HandItems[1].tag.AttributeModifiers[0].Amount
